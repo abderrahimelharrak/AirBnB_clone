@@ -119,7 +119,7 @@ class HBNBCommand(cmd.Cmd):
             print("** value missing **")
         else:
             key__find = args[0] + '.' + args[1]
-            obj = object_s.get(key__find, None)
+            obje = object_s.get(key__find, None)
 
             if not obje:
                 print("** no instance found **")
