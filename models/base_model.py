@@ -15,14 +15,14 @@ class BaseModel:
             *args (any): Non_used.
             **kwargs (dict): Key or value pairs of attributes.
         """
-        t_form = "%Y-%m-%dT%H:%M:%S.%f"
+        tform = "%Y-%m-%dT%H:%M:%S.%f"
         self.id = str(uuid4())
         self.created_at = datetime.today()
         self.updated_at = datetime.today()
         if len(kwargs) != 0:
             for x, y in kwargs.items():
                 if x == "created_at" or x == "updated_at":
-                    self.__dict__[x] = datetime.strptime(y, t_form)
+                    self.__dict__[x] = datetime.strptime(y, tform)
                 else:
                     self.__dict__[x] = y
         else:
