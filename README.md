@@ -148,20 +148,6 @@ All tests should also pass in non-interactive mode: $ echo "python3 -m unittest 
 
 
 
-HBNB - storage abstraction
-
-Play
-
-Mute
-Remaining Time -0:37
-
-auto
-
-Picture-in-Picture
-
-Fullscreen
-How in the AirBnB clone project storage is managed: File and Database
-
 Video library(8 total)
 Search by title
 HBNB project overview
@@ -171,7 +157,6 @@ Python: Unittests
 Python: BaseModel and inheritance
 Code consistency
 Python: Modules and Packages
-Currently playing
 HBNB - storage abstraction
 Tasks
 0. README, AUTHORS
